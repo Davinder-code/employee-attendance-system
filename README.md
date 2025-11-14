@@ -137,3 +137,8 @@ python main.py
 ## 🤝 Contributions
 Pull requests are welcome!  
 For major changes, please open an issue first.
+
+---
+
+## 📜 License
+This project is free for personal and educational use.
