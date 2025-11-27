@@ -1,25 +1,25 @@
-# 📌 Employee Attendance Management System (Python + MySQL)
+#Employee Attendance Management System (Python + MySQL)
 
 A professional, multi-file **Employee Attendance System** built using **Python** and **MySQL** to manage employee records and track daily attendance (Clock In / Clock Out).  
 This project follows a clean, modular, real-world architecture suitable for resumes, GitHub portfolios, and college projects.
 
 ---
 
-## 🚀 Features
+##Features
 
-### ✔ Employee Management
+###Employee Management
 - Add new employees  
 - Stores name, email, phone, department, hire date  
 - Data saved securely in MySQL  
 
-### ✔ Attendance Tracking
+### Attendance Tracking
 - Clock In  
 - Clock Out  
 - Prevents duplicate clock-ins  
 - Stores timestamps accurately  
 - Uses foreign-key constraints for reliability  
 
-### ✔ Clean Modular Architecture
+###Clean Modular Architecture
 
 ```
 attendance_system/
@@ -32,7 +32,7 @@ attendance_system/
 └── config.py
 ```
 
-### ✔ Database Structure
+### Database Structure
 Uses MySQL with tables:
 - `employees`
 - `departments`
@@ -40,7 +40,7 @@ Uses MySQL with tables:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python 3  
 - MySQL  
@@ -50,7 +50,7 @@ Uses MySQL with tables:
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 attendance_system/
@@ -65,16 +65,16 @@ attendance_system/
 
 ---
 
-## 🧩 How to Run the Project
+##How to Run the Project
 
-### 1️⃣ Install Dependencies
+### Install Dependencies
 ```bash
 pip install mysql-connector-python
 ```
 
 ---
 
-### 2️⃣ Create the MySQL Database
+###Create the MySQL Database
 
 Run in MySQL Workbench:
 
@@ -91,7 +91,7 @@ INSERT INTO departments (department_name) VALUES
 
 ---
 
-### 3️⃣ Configure Database Credentials
+###Configure Database Credentials
 
 Edit `config.py`:
 
@@ -104,14 +104,14 @@ DB_NAME = "attendance_system"
 
 ---
 
-### 4️⃣ Run the Application
+###Run the Application
 ```bash
 python main.py
 ```
 
 ---
 
-## 🖥️ Application Menu
+##Application Menu
 
 ```
 --- Employee Attendance System ---
@@ -124,7 +124,7 @@ python main.py
 
 ---
 
-## 📘 Future Improvements
+##Future Improvements
 - GUI Version (Tkinter)  
 - Admin Login System  
 - Export Attendance to Excel  
@@ -134,11 +134,11 @@ python main.py
 
 ---
 
-## 🤝 Contributions
+##Contributions
 Pull requests are welcome!  
 For major changes, please open an issue first.
 
 ---
 
-## 📜 License
+## License
 This project is free for personal and educational use.
